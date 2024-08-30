@@ -1,0 +1,158 @@
+{
+  "boards": [
+    {
+      "name": "Example 1",
+      "isActive": false,
+      "columns": [
+        {
+          "name": "Todo",
+          "tasks": [
+            {
+              "title": "Build UI ",
+              "description": "",
+              "status": "Todo",
+              "subtasks": [
+                {
+                  "title": "Sign up page",
+                  "isCompleted": true
+                },
+                {
+                  "title": "Sign in page",
+                  "isCompleted": false
+                }
+              ]
+            },
+            {
+              "title": "Build UI for search",
+              "description": "",
+              "status": "Todo",
+              "subtasks": [
+                {
+                  "title": "Search page",
+                  "isCompleted": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Doing",
+          "tasks": [
+            {
+              "title": "API Intregration",
+              "description": "",
+              "status": "Doing",
+              "subtasks": [
+                {
+                  "title": "login api",
+                  "isCompleted": true
+                },
+                {
+                  "title": "signup api",
+                  "isCompleted": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Done",
+          "tasks": [
+            {
+              "title": "testing",
+              "description": "Ensure there is no error.",
+              "status": "Done",
+              "subtasks": [
+                {
+                  "title": "unite testing",
+                  "isCompleted": true
+                }
+              ]
+            },
+            {
+              "title": "Host The Application",
+              "status": "Done",
+              "subtasks": [
+                {
+                  "title": "aws",
+                  "isCompleted": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Example 2",
+      "isActive": false,
+      "columns": [
+        {
+          "name": "Todo",
+          "tasks": [
+            {
+              "title": "learning js",
+              "description": "",
+              "status": "Todo",
+              "subtasks": [
+                {
+                  "title": "variable",
+                  "isCompleted": false
+                },
+                {
+                  "title": "for loop",
+                  "isCompleted": false
+                },
+                {
+                  "title": "while loop",
+                  "isCompleted": false
+                },
+                {
+                  "title": "do while loop",
+                  "isCompleted": false
+                }
+              ]
+            },
+            {
+              "title": "DSA",
+              "description": "",
+              "status": "",
+              "subtasks": [
+                {
+                  "title": "introduction to das",
+                  "isCompleted": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Doing",
+          "tasks": []
+        },
+        {
+          "name": "Done",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "name": "Example 3",
+      "isActive": false,
+      "columns": [
+        {
+          "name": "Now",
+          "tasks": []
+        },
+        {
+          "name": "Next",
+          "tasks": []
+        },
+        {
+          "name": "Later",
+          "tasks": []
+        }
+      ]
+    }
+  ]
+}
